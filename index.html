@@ -2,44 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tracked Controls</title>
-    <meta name="description" content="Tracked Controls – A-Frame">
-    <script src="../../../dist/aframe-master.js"></script>
-    <script src="components/aabb-collider.js"></script>
-    <script src="components/grab.js"></script>
-    <script src="components/ground.js"></script>
-    <script src="shaders/skyGradient.js"></script>
+    <title>360&deg; Image Gallery</title>
+    <meta name="description" content="360&deg; Image Gallery - A-Frame">
+    <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+    <script src="https://npmcdn.com/aframe-animation-component@3.0.1"></script>
+    <script src="https://npmcdn.com/aframe-event-set-component@3.0.1"></script>
+    <script src="https://npmcdn.com/aframe-layout-component@3.0.1"></script>
+    <script src="https://npmcdn.com/aframe-template-component@3.1.1"></script>
+    <!-- <script src="components/set-image.js"></script> -->
   </head>
   <body>
-    <a-scene fog="color: #bc483e; near: 0; far: 65;">
+    <a-scene>
       <a-assets>
-        <a-mixin id="cube"
-                 geometry="primitive: box; height: 0.30; width: 0.30; depth: 0.30"
-                 material="color: #EF2D5E;"></a-mixin>
-        <a-mixin id="cube-collided"
-                 material="color: #F2E646;"></a-mixin>
-        <a-mixin id="cube-grabbed"
-                 material="color: #F2E646;"></a-mixin>
-        <a-asset-item id="luke-obj" src="characters/luke/luke.obj"></a-asset-item>
-        <a-asset-item id="luke-mtl" src="characters/luke/luke.mtl"></a-asset-item>
+        <img id="background" crossorigin="anonymous" src="background/spaceNew.jpg">
+        <img id="han-solo" src="characters/characterCards/Solo.jpg">
+        <img id="luke-pic" src="characters/characterCards/lukepic.jpg">
+        <img id="darth-vader" src="characters/characterCards/darth-vader.jpg">
+        <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
+
+        <!-- Image link template to be reused. -->
+        <script id="link" type="text/html">
+          <a-entity class="link"
+            geometry="primitive: plane; height: 1; width: 1"
+            material="shader: flat; src: ${thumb}"
+            event-set__1="_event: mousedown; scale: 1 1 1"
+            event-set__2="_event: mouseup; scale: 1.2 1.2 1"
+            event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+            event-set__4="_event: mouseleave; scale: 1 1 1"
+            set-image="on: click; target: #image-360; src: ${src}"
+            sound="on: click; src: #click-sound"></a-entity>
+        </script>
       </a-assets>
-      <!-- Hands -->
-      <a-entity hand-controls="left" aabb-collider="objects: .cube;" grab></a-entity>
-      <a-entity hand-controls="right" aabb-collider="objects: .cube;" grab></a-entity>
 
-      <!-- A-Frame cubes -->
-      <a-entity position="0 0 -0.5">
-        <a-entity obj-model="obj: #luke-obj; mtl: #luke-mtl"></a-entity>
+      <!-- 360-degree image. -->
+      <a-sky id="image-360" radius="10" src="#background"></a-sky>
 
-        <!-- Environment -->
-        <a-entity id="sky"
-                  geometry="primitive: sphere; radius: 65;"
-                  material="shader: skyGradient; colorTop: #353449; colorBottom: #BC483E; side: back"></a-entity>
-         <a-entity ground></a-entity>
-         <a-entity light="type: point; color: #f4f4f4; intensity: 0.2; distance: 0" position="8 10 18"></a-entity>
-         <a-entity light="type: point; color: #f4f4f4; intensity: 0.6; distance: 0" position="-8 10 -18"></a-entity>
-         <a-entity light="type: ambient; color: #f4f4f4; intensity: 0.4;" position="-8 10 -18"></a-entity>
-         <a-entity light="type: ambient; color: #f4f4f4; intensity: 0.4;" position="-8 10 -18"></a-entity>
+      <!-- Image links. -->
+      <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
+        <a-entity template="src: #link" data-src="#luke-pic" data-thumb="#luke-pic"></a-entity>
+         <a-entity template="src: #link" data-src="#han-solo" data-thumb="#han-solo"></a-entity>
+        <a-entity template="src: #link" data-src="#darth-vader" data-thumb="#darth-vader"></a-entity>
+      </a-entity>
+      <!-- Camera + cursor. -->
+      <a-entity camera look-controls>
+        <a-cursor id="cursor"
+          animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
+          animation__fusing="property: fusing; startEvents: fusing; from: 1 1 1; to: 0.1 0.1 0.1; dur: 1500"
+          event-set__1="_event: mouseenter; color: purple"
+          event-set__2="_event: mouseleave; color: black"
+          raycaster="objects: .link"></a-cursor>
       </a-entity>
     </a-scene>
   </body>

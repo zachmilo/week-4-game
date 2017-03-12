@@ -1,0 +1,329 @@
+# Blender MTL File: 'trench_run_sketchfab.blend.blend'
+# Material Count: 30
+
+newmtl green_laser
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl inner_laser
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl orange_laser.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl palette.008
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd export/explosion.png
+
+newmtl tie_1
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Tie_fighter_texture0.png
+
+newmtl tie_1.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Tie_fighter_texture0.png
+
+newmtl tie_1.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Tie_fighter_texture0.png
+
+newmtl tie_2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Tie_fighter_2_texture0.png
+
+newmtl tie_2.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Tie_fighter_texture0.png
+
+newmtl trench1
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_1_texture0.png
+
+newmtl trench1.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_1_texture0.png
+
+newmtl trench1.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_1_texture0.png
+
+newmtl trench1.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_1_texture0.png
+
+newmtl trench2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_2_texture0.png
+
+newmtl trench2.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_2_texture0.png
+
+newmtl trench2.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_2_texture0.png
+
+newmtl trench2.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_2_texture0.png
+
+newmtl trench3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_3_texture0.png
+
+newmtl trench3.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_3_texture0.png
+
+newmtl trench4
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_4_texture0.png
+
+newmtl trench4.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_4_texture0.png
+
+newmtl trench4.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_4_texture0.png
+
+newmtl trench5
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_1_texture0.png
+
+newmtl trench6
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/trench_2_texture0.png
+
+newmtl turret
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/turret_texture0.png
+
+newmtl turret.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/turret_texture0.png
+
+newmtl xwing
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Xwing_texture0.png
+
+newmtl xwing.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Xwing_texture0.png
+
+newmtl xwing.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Xwing_texture0.png
+
+newmtl xwing.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd D:/travaux/voxel/trench_run/export_optim/Xwing_texture0.png
