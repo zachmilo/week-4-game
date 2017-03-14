@@ -19,5 +19,16 @@
     "aframe-scene",
     "webvr",
     "vr"
-  ]
+  ],
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachmilo/week-4-game.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/zachmilo/week-4-game/issues"
+  },
+  "homepage": "https://github.com/zachmilo/week-4-game#readme"
 }
